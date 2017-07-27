@@ -1,0 +1,31 @@
+
+.grid {
+    display: table;
+    border: 1px solid black;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    text-align: center;
+    font-size: xx-small;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.flip {
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+}
+
+.info {
+    padding-left: 10px;
+}
